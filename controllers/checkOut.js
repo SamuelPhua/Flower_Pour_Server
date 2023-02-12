@@ -19,14 +19,7 @@ const createOrder = async (req, res) => {
       paymentMethod: req.body.paymentMethod,
       paymentAmount: req.body.paymentAmount,
       orderStatus: req.body.orderStatus,
-      cart: {
-        name: req.body.name,
-        weight: req.body.weight,
-        packaging: req.body.packaging,
-        price: req.body.price,
-        quantity: req.body.quantity,
-        itemTotal: req.body.itemTotal,
-      },
+      cart: req.body.cart,
     });
 
     await newOrder.save();
