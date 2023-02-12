@@ -1,4 +1,4 @@
-export const products = [
+const products = [
   {
     name: "Pineapple Balls",
     description:
@@ -86,7 +86,7 @@ export const products = [
         "Take your pick between recyclable kraft pouches or BPA-free jars.",
       storage: "",
     },
-    price: [{ weight: "", packaging: "", sgdPrice }],
+    price: [{ weight: "", packaging: "", sgdPrice: 0 }],
     image: [
       { packaging: "main", imageSrc: "" },
       { packaging: "Bottle", imageSrc: "" },
@@ -376,3 +376,5 @@ export const products = [
     ],
   },
 ];
+
+module.exports = { products };
