@@ -5,6 +5,7 @@ const connectDB = require("./db/db");
 const Products = require("./models/Products");
 const { products: productSeed } = require("./data/seed");
 const enquiryFormRouter = require("./router/enquiryForm");
+const productsRouter = require("./router/products");
 const checkoutRouter = require("./router/checkout");
 const app = express();
 
@@ -14,6 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Add routers
 app.use("/enquiryForm", enquiryFormRouter);
+app.use("/products", productsRouter);
 app.use("/checkout", checkoutRouter);
 
 const PORT = process.env.PORT || 5001;
