@@ -1,4 +1,4 @@
-const express = requier("express");
+const express = require("express");
 
 /*
  ** If we are doing JWT

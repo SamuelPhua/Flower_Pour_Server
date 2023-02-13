@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
 const EnquiryForm = require("../models/EnquiryForm");
 
 router.put("/createEnquiry", async (req, res) => {
