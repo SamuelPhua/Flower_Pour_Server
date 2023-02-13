@@ -1,6 +1,7 @@
 const products = [
   {
-    name: "Pineapple Balls",
+    // name: "Pineapple Balls",
+    name: "Pineapple Signature Balls",
     description:
       "Our pineapple balls are the perfect balance of buttery, powdery, melt-in-your mouth crust and tangy sweet pineapple filling. \r\nPerfect for your CNY Indulgence!\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
     about: { ingredients: "", allergens: "", packaging: "", storage: "" },
@@ -75,7 +76,8 @@ const products = [
     ],
   },
   {
-    name: "FP Xmas Fruit Cake",
+    // name: "FP Xmas Fruit Cake",
+    name: "Xmas Fruit Cake",
     description:
       "Our Xmas Fruit Cake is a holiday favourite featuring nutty and fruity flavours. Mixed nuts and almonds provide a good crunch, and for a citrus kick, the nuts are also soaked in fresh orange juice before topping off the cake with a orange juice glaze.\r\nUsed with Less Sugar, Premium European Butter, and no alcohol.\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
     about: {
@@ -166,7 +168,8 @@ const products = [
     ],
   },
   {
-    name: "Sea Salt Chocolate Chip",
+    // name: "Sea Salt Chocolate Chip",
+    name: "Sea Salt Chocolate Cookies",
     description:
       "The classic chocolate chip but elevated with sea salt for the perfect balance of sweet and savoury flavour.\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
     about: {
@@ -212,7 +215,8 @@ const products = [
     ],
   },
   {
-    name: "Double Chocolate Chip Cookies",
+    // name: "Double Chocolate Chip Cookies",
+    name: "Double Choco Chip Cookies",
     description:
       "Crunchy and packed with cocoa goodness, our double chocolate chip cookies are perfect for anyone looking to satisfy their chocolate cravings!\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
     about: {
