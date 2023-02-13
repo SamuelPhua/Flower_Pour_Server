@@ -19,13 +19,8 @@ const getProduct = async (req, res) => {
 };
 
 const getAllProducts = async (req, res) => {
-  try {
-    const products = await Products.find();
-    res.json(products);
-  } catch {
-    console.log("Images not loaded");
-  }
-  res.status(400).json({ status: "error", message: "an error has occurred" });
+  const products = await Products.find();
+  res.json(products);
 };
 
 module.exports = { getProduct, getAllProducts };
