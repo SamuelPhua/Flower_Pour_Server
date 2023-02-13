@@ -4,8 +4,43 @@ const products = [
     name: "Pineapple Signature Balls",
     description:
       "Our pineapple balls are the perfect balance of buttery, powdery, melt-in-your mouth crust and tangy sweet pineapple filling. \r\nPerfect for your CNY Indulgence!\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
-    about: { ingredients: "", allergens: "", packaging: "", storage: "" },
-    price: [{ weight: "", packaging: "", sgdPrice: 0 }],
+    //Note: about and price details below are mocked up with details from Chocolate Chip Cookies
+    about: {
+      ingredients:
+        "Flour, butter, sugar, brown sugar, salt, vanilla essence, baking soda, cinnamon, eggs, chocolate chips, coca powder, rolled oats.",
+      allergens: "May contain gluten and tree nuts.",
+      packaging:
+        "Take your pick between recyclable kraft pouches or BPA-free jars.",
+      storage:
+        "To preserve freshness, all our cookies are sealed in air-tight sustainable packaging",
+    },
+    price: [
+      {
+        weight: "100g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 5.8,
+      },
+      {
+        weight: "200g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 11.0,
+      },
+      {
+        weight: "100g",
+        packaging: "Bottle",
+        sgdPrice: 8.3,
+      },
+      {
+        weight: "150g",
+        packaging: "Bottle",
+        sgdPrice: 13.0,
+      },
+      {
+        weight: "350g",
+        packaging: "Bottle",
+        sgdPrice: 29.0,
+      },
+    ],
     image: [
       { packaging: "main", imageSrc: "" },
       { packaging: "Bottle", imageSrc: "" },
@@ -16,8 +51,43 @@ const products = [
     name: "White Almond Cookie",
     description:
       "Our White Almond Cookies are soft, crumbly and full of nutty almond flavour. \r\nPerfect for your CNY Indulgence!\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
-    about: { ingredients: "", allergens: "", packaging: "", storage: "" },
-    price: [{ weight: "", packaging: "", sgdPrice: 0 }],
+    //Note: about and price details below are mocked up with details from Chocolate Chip Cookies
+    about: {
+      ingredients:
+        "Flour, butter, sugar, brown sugar, salt, vanilla essence, baking soda, cinnamon, eggs, chocolate chips, coca powder, rolled oats.",
+      allergens: "May contain gluten and tree nuts.",
+      packaging:
+        "Take your pick between recyclable kraft pouches or BPA-free jars.",
+      storage:
+        "To preserve freshness, all our cookies are sealed in air-tight sustainable packaging",
+    },
+    price: [
+      {
+        weight: "100g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 5.8,
+      },
+      {
+        weight: "200g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 11.0,
+      },
+      {
+        weight: "100g",
+        packaging: "Bottle",
+        sgdPrice: 8.3,
+      },
+      {
+        weight: "150g",
+        packaging: "Bottle",
+        sgdPrice: 13.0,
+      },
+      {
+        weight: "350g",
+        packaging: "Bottle",
+        sgdPrice: 29.0,
+      },
+    ],
     image: [
       { packaging: "main", imageSrc: "" },
       { packaging: "Bottle", imageSrc: "" },
@@ -28,17 +98,41 @@ const products = [
     name: "Gingerbread Man",
     description:
       "Our gingerbread man cookies are crunchy and packed full with cinnamon spice goodness.\r\nEach gingerbread man is uniquely shaped in their own way as all are proudly handmade in Singapore.\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
+    //Note: about and price details below are mocked up with details from Chocolate Chip Cookies
     about: {
-      ingredients: "",
-      allergens: "",
-      packaging: "",
-      storage: "",
+      ingredients:
+        "Flour, butter, sugar, brown sugar, salt, vanilla essence, baking soda, cinnamon, eggs, chocolate chips, coca powder, rolled oats.",
+      allergens: "May contain gluten and tree nuts.",
+      packaging:
+        "Take your pick between recyclable kraft pouches or BPA-free jars.",
+      storage:
+        "To preserve freshness, all our cookies are sealed in air-tight sustainable packaging",
     },
     price: [
       {
-        weight: "",
-        packaging: "",
-        sgdPrice: 0,
+        weight: "100g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 5.8,
+      },
+      {
+        weight: "200g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 11.0,
+      },
+      {
+        weight: "100g",
+        packaging: "Bottle",
+        sgdPrice: 8.3,
+      },
+      {
+        weight: "150g",
+        packaging: "Bottle",
+        sgdPrice: 13.0,
+      },
+      {
+        weight: "350g",
+        packaging: "Bottle",
+        sgdPrice: 29.0,
       },
     ],
     image: [
@@ -51,12 +145,17 @@ const products = [
     name: "French Sable Cookies",
     description:
       "Our French Sable Cookies are crunchy, fruity and the best snack to have with your favourite coffee or tea.\r\nEnjoy it in 3 flavours: Cranberry Sunflower Seeds, Citrus Chocolate Almond, and Matcha Chocolate Chips.\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
+    //Note: about details below are mocked up with details from Chocolate Chip Cookies
     about: {
-      ingredients: "",
-      allergens: "",
-      packaging: "",
-      storage: "",
+      ingredients:
+        "Flour, butter, sugar, brown sugar, salt, vanilla essence, baking soda, cinnamon, eggs, chocolate chips, coca powder, rolled oats.",
+      allergens: "May contain gluten and tree nuts.",
+      packaging:
+        "Take your pick between recyclable kraft pouches or BPA-free jars.",
+      storage:
+        "To preserve freshness, all our cookies are sealed in air-tight sustainable packaging",
     },
+
     price: [
       {
         weight: "100g",
@@ -88,7 +187,35 @@ const products = [
         "Take your pick between recyclable kraft pouches or BPA-free jars.",
       storage: "",
     },
-    price: [{ weight: "", packaging: "", sgdPrice: 0 }],
+    //Note: price details below are mocked up with details from Chocolate Chip Cookies
+
+    price: [
+      {
+        weight: "100g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 5.8,
+      },
+      {
+        weight: "200g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 11.0,
+      },
+      {
+        weight: "100g",
+        packaging: "Bottle",
+        sgdPrice: 8.3,
+      },
+      {
+        weight: "150g",
+        packaging: "Bottle",
+        sgdPrice: 13.0,
+      },
+      {
+        weight: "350g",
+        packaging: "Bottle",
+        sgdPrice: 29.0,
+      },
+    ],
     image: [
       { packaging: "main", imageSrc: "" },
       { packaging: "Bottle", imageSrc: "" },
@@ -108,11 +235,33 @@ const products = [
       storage:
         "To preserve freshness, all our cookies are sealed in air-tight sustainable packaging",
     },
+    //Note: price details below are mocked up with details from Chocolate Chip Cookies
+
     price: [
       {
-        weight: "",
-        packaging: "",
-        sgdPrice: 0,
+        weight: "100g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 5.8,
+      },
+      {
+        weight: "200g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 11.0,
+      },
+      {
+        weight: "100g",
+        packaging: "Bottle",
+        sgdPrice: 8.3,
+      },
+      {
+        weight: "150g",
+        packaging: "Bottle",
+        sgdPrice: 13.0,
+      },
+      {
+        weight: "350g",
+        packaging: "Bottle",
+        sgdPrice: 29.0,
       },
     ],
     image: [
@@ -122,7 +271,7 @@ const products = [
     ],
   },
   {
-    name: "Macadamia Chocolate Cookies",
+    name: "Macadamia Chocolate Cookies", //details below filled in with details in protoype
     description:
       "Our Macadamia Chocolate Chip Cookies are the perfect blend of crunchy macadamia nut,sweetchocolatechips andchewycrust.\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
     about: {
@@ -141,6 +290,11 @@ const products = [
         sgdPrice: 6.3,
       },
       {
+        weight: "200g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 12.0,
+      },
+      {
         weight: "100g",
         packaging: "Bottle",
         sgdPrice: 9.3,
@@ -148,17 +302,13 @@ const products = [
       {
         weight: "150g",
         packaging: "Bottle",
-        sgdPrice: 14,
+        sgdPrice: 14.0,
       },
-      {
-        weight: "200g",
-        packaging: "Kraft Pouch",
-        sgdPrice: 12,
-      },
+
       {
         weight: "350g",
         packaging: "Bottle",
-        sgdPrice: 31,
+        sgdPrice: 31.0,
       },
     ],
     image: [
@@ -169,7 +319,7 @@ const products = [
   },
   {
     // name: "Sea Salt Chocolate Chip",
-    name: "Sea Salt Chocolate Cookies",
+    name: "Sea Salt Chocolate Cookies", //details below filled in with details in protoype
     description:
       "The classic chocolate chip but elevated with sea salt for the perfect balance of sweet and savoury flavour.\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
     about: {
@@ -228,11 +378,33 @@ const products = [
       storage:
         "To preserve freshness, all our cookies are sealed in air-tight sustainable packaging",
     },
+    //Note: price details below are mocked up with details from Chocolate Chip Cookies
+
     price: [
       {
-        weight: "",
-        packaging: "",
-        sgdPrice: 0,
+        weight: "100g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 5.8,
+      },
+      {
+        weight: "200g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 11.0,
+      },
+      {
+        weight: "100g",
+        packaging: "Bottle",
+        sgdPrice: 8.3,
+      },
+      {
+        weight: "150g",
+        packaging: "Bottle",
+        sgdPrice: 13.0,
+      },
+      {
+        weight: "350g",
+        packaging: "Bottle",
+        sgdPrice: 29.0,
       },
     ],
     image: [
@@ -242,7 +414,7 @@ const products = [
     ],
   },
   {
-    name: "Chocolate Chip Cookies",
+    name: "Chocolate Chip Cookies", //details below filled in with details in protoype
     description:
       "Melt-in-your mouth and packed with chunks of chocolate goodness, our signature chocolate chip cookies are perfect if you are looking to satisfy your sweet tooth!\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
     about: {
@@ -261,6 +433,11 @@ const products = [
         sgdPrice: 5.8,
       },
       {
+        weight: "200g",
+        packaging: "Kraft Pouch",
+        sgdPrice: 11.0,
+      },
+      {
         weight: "100g",
         packaging: "Bottle",
         sgdPrice: 8.3,
@@ -268,17 +445,12 @@ const products = [
       {
         weight: "150g",
         packaging: "Bottle",
-        sgdPrice: 13,
-      },
-      {
-        weight: "200g",
-        packaging: "Kraft Pouch",
-        sgdPrice: 11,
+        sgdPrice: 13.0,
       },
       {
         weight: "350g",
         packaging: "Bottle",
-        sgdPrice: 29,
+        sgdPrice: 29.0,
       },
     ],
     image: [
@@ -288,7 +460,7 @@ const products = [
     ],
   },
   {
-    name: "Pecan Butterscotch Cookies",
+    name: "Pecan Butterscotch Cookies", //details below filled in with details in protoype
     description:
       "Crunchy cookies packed with nutty and caramel notes.\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
     about: {
@@ -334,7 +506,7 @@ const products = [
     ],
   },
   {
-    name: "Oatmeal Cranberry Cookies",
+    name: "Oatmeal Cranberry Cookies", //details below filled in with details in protoype
     description:
       "A healthier choice cookie with a crunchy oatmeal texture and sweetened with cranberries.\r\nAll our cookies are baked to order and will be ready to be delivered to you within 2-4 working days of placing your order.",
     about: {
