@@ -5,6 +5,7 @@ const EnquiryForm = require("../models/EnquiryForm");
 
 router.put("/createEnquiry", async (req, res) => {
   try {
+    console.log("createEnquiry", req.body);
     const newEnquiry = new EnquiryForm({
       firstName: req.body.firstName,
       lastName: req.body.lastName,
